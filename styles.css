@@ -1,0 +1,260 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Genel arka plan rengi */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #292929; /* İsteğe bağlı arka plan rengi */
+}
+
+.header-image {
+    width: 100px; /* Resim boyutunu ihtiyacınıza göre ayarlayın */
+    height: 100px; /* Resim boyutunu ihtiyacınıza göre ayarlayın */
+    margin-left: 200px; /* Metin ve resim arasındaki boşluğu ayarlayın */
+    margin-right: 120px;
+}
+
+h1 {
+    font-size: 44px; /* Başlık boyutunu ihtiyacınıza göre ayarlayın */
+    margin: 0;
+    color: #7b5d56;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0; /* Navigasyon çubuğu yüksekliği */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Arama çubuğu ile menü arasındaki boşluk */
+    height: 44px; /* Menünün yüksekliği ile aynı olacak şekilde ayarlayın */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Arama çubuğu ile menü arasındaki boşluk */
+    height: 44px; /* Menünün yüksekliği ile aynı olacak şekilde ayarlayın */
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 300px; /* Arama kutusunun genişliği */
+    height: 40%; /* Parent container'ın yüksekliğiyle aynı */
+}
+
+.search-button {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: #7b5d56; /* Buton rengi */
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    height: 88%; /* Parent container'ın yüksekliğiyle aynı */
+    margin-left: -4px; /* Arama butonu ile arama kutusu arasındaki boşluğu kapatmak için */
+    margin-right: 90px;
+}
+
+.search-button:hover {
+    background-color: #5e493f;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 44px; /* Navigasyon çubuğu yüksekliği */
+}
+
+.menu-group {
+    margin: 0 91px; /* Menü grupları arasındaki boşluk */
+}
+
+nav ul.menu li {
+    margin: 0 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 8px;
+    display: flex; /* İkon ve metinlerin yan yana olmasını sağlar */
+    align-items: center; /* İkon ve metinlerin dikey hizalamasını sağlar */
+    font-size: 18px; /* Metin boyutunu ihtiyacınıza göre ayarlayın */
+    line-height: 20px; /* Yüksekliği eşitler */
+}
+
+nav ul.menu li a:hover {
+    background-color: #7b5d56;
+}
+
+main {
+    padding: 5px;
+    text-align: center;
+}
+
+.kadın {
+    display: inline-block;
+    width: 30%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+}
+
+.erkek {
+    display: inline-block;
+    width: 30%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+}
+
+.çocuk {
+    display: inline-block;
+    width: 30%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+}
+
+.tişörtkadin10 {
+    width: 90%; /* İstenilen genişlik ayarlanabilir */
+    height: 300px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+}
+
+
+
+.kadın1 {
+    display: inline-block;
+    width: 22%; /* İstenilen genişlik ayarlanabilir */
+    height: 550px; /* Yükseklik ayarlandı */
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+    color: white; /* Yazı rengini beyaz yaptık */
+    text-align: center; /* Metni ortaladık */
+}
+
+.tişörtkadin {
+    width: 90%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px; /* Yükseklik ayarlandı */
+    margin: 20px 0; /* Üst ve alt boşluk ayarlandı */
+    vertical-align: top; /* Dikey hizalama */
+}
+
+.erkek1 {
+    display: inline-block;
+    width: 22%; /* İstenilen genişlik ayarlanabilir */
+    height: 550px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+    color: white; /* Yazı rengini beyaz yaptık */
+    text-align: center; /* Metni ortaladık */
+}
+
+.tişörterkek {
+    width: 90%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+}
+
+.çocuk1 {
+    display: inline-block;
+    width: 22%; /* İstenilen genişlik ayarlanabilir */
+    height: 550px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+    background-color: #7b5d56;
+    color: white; /* Yazı rengini beyaz yaptık */
+    text-align: center; /* Metni ortaladık */
+}
+
+.tişörtçocuk {
+    width: 90%; /* İstenilen genişlik ayarlanabilir */
+    height: 400px;
+    margin: 20px; /* Boşluk ayarlanabilir */
+    vertical-align: top; /* Dikey hizalama */
+}
+
+.price {
+    font-size: 18px; /* Fiyat yazısının boyutunu ayarladık */
+    margin: 10px 0; /* Üst ve alt boşluk ayarlandı */
+    color: white;
+    text-align: center;
+}
+
+.reklam{
+    font-size: 18px; /* Fiyat yazısının boyutunu ayarladık */
+    margin: 10px 0; /* Üst ve alt boşluk ayarlandı */
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    margin: 10px 0; /* Üst ve alt boşluk ayarlandı */
+}
+
+.buy-button, .cart-button {
+    padding: 10px 20px; /* Buton içi boşluk ayarlandı */
+    margin: 5px; /* Butonlar arasındaki boşluk ayarlandı */
+    border: none;
+    border-radius: 5px; /* Köşeleri yuvarladık */
+    cursor: pointer;
+    font-size: 16px; /* Buton yazısının boyutunu ayarladık */
+    
+}
+
+.buy-button {
+    background-color: #4CAF50; /* Satın Al butonunun rengi */
+    color: white;
+}
+
+.cart-button {
+    background-color: #008CBA; /* Sepete Ekle butonunun rengi */
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: #28562b; /* Satın Al butonunun üzerine gelindiğinde renk değişimi */
+}
+
+.cart-button:hover {
+    background-color: #0e4b68; /* Sepete Ekle butonunun üzerine gelindiğinde renk değişimi */
+}
+
+.sepet{
+font-size: 50px;
+color:#7b5d56;
+text-align: center;
+margin: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.satın{
+    color: white;
+}
